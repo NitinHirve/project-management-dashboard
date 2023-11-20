@@ -1,0 +1,48 @@
+/* pregress bar CSS */
+
+.skill {
+    width: 32px;
+    height: 32px;
+    /* background-color: pink; */
+    position: relative;
+}
+
+.outer {
+    padding: 3px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+
+}
+
+.inner {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+.inner #number {
+    color: #060606;
+    text-align: center;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: -0.18px;
+}
+
+.skill svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
